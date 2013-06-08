@@ -1,6 +1,8 @@
 #!/bin/ruby
-require 'redgreen'
+require 'autotest/restart'
 require 'autotest/timestamp'
+require 'autotest/growl'
+require 'autotest/fsevent'
  
 module Autotest::GnomeNotify
   def self.notify title, msg, img
